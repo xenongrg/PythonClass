@@ -1,10 +1,6 @@
 x = int(input("Enter first number: "))
 y = int(input("Enter next number: "))
-add = x + y
-subtract = x - y
-multiply = x * y
-divide = x / y
-print(x, "+", y, "=", add)
-print(x, "-", y, "=", subtract)
-print(x, "*", y, "=", multiply)
-print(x, "/", y, "=", divide)
+print(x, "+", y, "=", x+y)
+print(x, "-", y, "=", x-y)
+print(x, "*", y, "=", x*y)
+print(x, "/", y, "=", x/y)
