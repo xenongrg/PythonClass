@@ -15,7 +15,7 @@ if User2Salary >= 100000:
 else:
     print(User2Name, "earns", User2Salary)
 if User3Salary >= 100000:
-    z = User1Salary - (User3Salary * 0.1)
+    z = User3Salary - (User3Salary * 0.1)
     print(User3Name, "earns", z)
 else:
     print(User3Name, "earns", User3Salary)
