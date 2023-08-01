@@ -4,15 +4,14 @@ name2 = input("Enter 2nd person's name: ")
 salary2 = int(input("Enter 2nd person's salary: "))
 name3 = input("Enter 3rd person's name: ")
 salary3 = int(input("Enter 3rd person's salary: "))
+
 if salary1 >= 100000:
-    print(name1, salary1 - (salary1 * 0.1))
-else:
-    print(name1, salary1)
+    salary1 = salary1 - (salary1 * 0.1)
 if salary2 >= 100000:
-    print(name2, salary2 - (salary2 * 0.1))
-else:
-    print(name2, salary2)
+    salary2 = salary2 - (salary2 * 0.1)
 if salary3 >= 100000:
-    print(name3, salary3 - (salary3 * 0.1))
-else:
-    print(name3, salary3)
+    salary3 = salary3 - (salary3 * 0.1)
+
+print(name1, salary1)
+print(name2, salary2)
+print(name3, salary3)
