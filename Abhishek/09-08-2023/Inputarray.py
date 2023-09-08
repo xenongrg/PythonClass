@@ -7,3 +7,7 @@ for i in range(0, n):
     lst.append(ele)
 
 print(lst)
+
+###another one
+value = input("Enter a list of values separated by spaces: ")
+print("Input list:", value.split())
