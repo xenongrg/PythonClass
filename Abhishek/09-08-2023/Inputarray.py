@@ -9,9 +9,5 @@ for i in range(0, n):
 print(lst)
 
 ###another one
-input_str = input("Enter values separated by commas: ")
-input_list = input_str.split(',')
-
-input_list = [item.strip() for item in input_list]
-
-print("Array:", input_list)
+value = input("Enter values separated by commas: ")
+print("Array:", value.split(','))
