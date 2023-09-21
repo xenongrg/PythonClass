@@ -3,6 +3,7 @@ fruits = ["Orange", "Apple", "Mango", "Pineapple", "Kera"]
 fruits.append("Kera")
 print(fruits)
 
+fruits = ["Orange", "Apple", "Mango", "Pineapple", "Kera"]
 fruits.copy()
 print(fruits)
 
