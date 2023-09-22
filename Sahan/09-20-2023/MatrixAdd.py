@@ -50,7 +50,7 @@ while i < row_B:
     print()
     i = i + 1
 
-result = [[0, 0], [0, 0]]
+result = [[0 for _ in range(column_B)] for _ in range(row_A)]
 for i in range(len(matrix_A)):
     for j in range(len(matrix_A[0])):
         result[i][j] = matrix_A[i][j] + matrix_B[i][j]

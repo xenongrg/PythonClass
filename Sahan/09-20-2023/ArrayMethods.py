@@ -20,10 +20,8 @@ print("\nAfter remove:")
 for car in cars:
     print(car)
 
-cars.copy()        # prints copy of the list
-print("\nCopy of Cars:")
-for car in cars:
-    print(car)
+copy = cars.copy()        # prints copy of the list
+print("\nCopy of cars:", copy)
 
 x = cars.count("Ford")        # prints copy of the list
 print("\nCount of selected value:",x)
