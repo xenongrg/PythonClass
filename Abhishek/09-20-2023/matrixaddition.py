@@ -1,7 +1,7 @@
 # making empty array to store elements of matrix
 matrix_A = []
 matrix_B = []
-sum_AB = [[0,0],[0,0]]
+
 # inputting rows and columns for matrix_A
 row_A = int(input("Enter row value of matrix_A: "))
 column_A = int(input("Enter column value of matrix_A: "))
@@ -62,7 +62,7 @@ while i < row_B:
     i = i + 1
 
 # addition of matrix_A & matrix_B
-
+sum_AB = [[0 for _ in range(column_A)] for _ in range(row_A)]
 # if column_A == row_B:
 i = 0
 while i < len(matrix_A):

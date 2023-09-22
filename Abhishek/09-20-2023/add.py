@@ -1,6 +1,6 @@
-matrix_A = [[1, 2], [3, 4]]
-matrix_B = [[5, 6], [7, 8]]
-result = [[0, 0], [0, 0]]
+matrix_A = [[1, 2, 1], [3, 4, 1]]
+matrix_B = [[5, 6, 1], [7, 8, 1]]
+result = []
 # Get the dimensions of the matrices
 rows = len(matrix_A)
 cols = len(matrix_A[0])
@@ -8,9 +8,11 @@ cols = len(matrix_A[0])
 i = 0
 while i < rows:
     j = 0
+    temp_matrix = []
     while j < cols:
-        result[i][j] = matrix_A[i][j] + matrix_B[i][j]
+        temp_matrix.append(matrix_A[i][j] + matrix_B[i][j])
         j += 1
+    result.append(temp_matrix)
     i += 1
 # Print the result
 print("Addition of two matrices:")
