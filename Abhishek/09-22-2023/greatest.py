@@ -6,3 +6,7 @@ elif b - a != abs(b - a):
     print("a is greater : ", a)
 else:
     print(" a = b ")
+
+
+
+
