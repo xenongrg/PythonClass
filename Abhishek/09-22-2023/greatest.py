@@ -1,7 +1,8 @@
-a = 7
-b = 6
-
+a = 3
+b = 7
 if a - b != abs(a - b):
     print("b is greater : ", b)
-else:
+elif b - a != abs(b - a):
     print("a is greater : ", a)
+else:
+    print(" a = b ")
