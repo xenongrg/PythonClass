@@ -1,16 +1,7 @@
-numbers = []    # null matrix
-print("Enter 1st integer: ")        # taking 1st integer
-a = int(input())
-
-print("Enter 2nd integer: ")        # taking 2nd integer
-b = int(input())
-
-numbers.append(a)   # putting int in matrix
-numbers.append(b)
-print(numbers)
-numbers.reverse()   # reversing the values
-print(numbers)
-a = numbers[0]      # swapping values in matrix
-b = numbers[1]      # swapping values in matrix
+a = 5
+b = 6
+a = a + b
+b = a - 6
+a = a - 5
 print(a)
 print(b)
