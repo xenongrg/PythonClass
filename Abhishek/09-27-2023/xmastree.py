@@ -6,7 +6,6 @@ while i < 4:
         print(" ", end=" ")
         j = j + 1
     k = 1
-
     while k <= i + 1:
         print(m, " ", end=" ")
         m = m + 1
