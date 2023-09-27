@@ -12,5 +12,5 @@ while i < 4:
         m = m + 1
         k = k + 1
 
-print()
-i = i + 1
+    print()
+    i = i + 1
