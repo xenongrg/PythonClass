@@ -1,12 +1,8 @@
 a = 3
 b = 7
-if a - b != abs(a - b):
-    print("b is greater : ", b)
-elif b - a != abs(b - a):
-    print("a is greater : ", a)
-else:
-    print(" a = b ")
 
-
+c = a + b
+d = abs(a - b)
+print(f'Greatest number is: {(c+d)/2}')
 
 

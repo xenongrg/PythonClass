@@ -1,7 +1,7 @@
 a = 5
 b = 6
 a = a + b
-b = a - 6
-a = a - 5
+b = a - b
+a = a - b
 print(a)
 print(b)
