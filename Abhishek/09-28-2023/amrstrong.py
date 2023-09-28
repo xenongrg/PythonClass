@@ -10,3 +10,4 @@ if n == armstrong:
     print("This is armstrong number")
 else:
     print("This is not armstrong number")
+

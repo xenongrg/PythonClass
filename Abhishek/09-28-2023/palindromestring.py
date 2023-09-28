@@ -5,3 +5,4 @@ if x == y:
     print("This is palindrome")
 else:
     print("This is not palindrome")
+

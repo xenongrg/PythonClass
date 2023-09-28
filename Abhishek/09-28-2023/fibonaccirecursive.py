@@ -10,3 +10,4 @@ def fibonacci(i):
 r = int(input("Enter nth number: "))
 for a in range(r):
     print(fibonacci(a))
+

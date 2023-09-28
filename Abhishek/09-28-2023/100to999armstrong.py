@@ -7,3 +7,4 @@ for i in range(100, 1000):
 
     if i == armstrong:
         print(armstrong, end=",")
+
