@@ -9,4 +9,6 @@ for j in range(4):
                 temp2 = a[j - i]
                 a[j - i] = a[j - i - 1]
                 a[j - i - 1] = temp
+            else:
+                break
 print(a)
