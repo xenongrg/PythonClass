@@ -7,7 +7,10 @@ while i < len(x) - 1:
             temp = x[j - 1]
             x[j - 1] = x[j]
             x[j] = temp
+        else:
+            break
         j = j - 1
         print(x)
     i = i + 1
+
     # print(x)
